@@ -1,3 +1,12 @@
 import './ContainerTasks.css'
 
-export const ContainerTasks = () => <></>
+
+export const ContainerTasks = ({children}) => {
+  return (
+   <ul className='container-tasks'>
+
+    {children}
+
+   </ul>
+  )
+}
